@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link href="./css/reg.css" rel="stylesheet">
+    <title>singup</title>
+</head>
+
+<body>
+    <div class="warpper fl">
+        <div class="from">
+            <h1>
+                Create Account</h1>
+            <form action = "regconnect.py" type = "sentMessage" method="POST">
+                <p>
+                    <input type="text" name="fname" placeholder="First Name" class="intpt" required>
+                </p>
+                <p>
+                    <input type="text" name="lname" placeholder="Last Name" class="intpt" required>
+                </p>
+                <p>
+                    <input type="text" name="uname" placeholder="Username" class="intpt" required>
+                </p>
+                <p>
+                    <input type="email" name="email" placeholder="Email" class="intpt" required>
+                </p>
+                <p>
+                    <input type="password" name="passs" placeholder="password" class="intpt" required>
+                </p>
+                <p>
+                    <input type="password" name="repass" placeholder="Confirm password" class="intpt" required>
+                </p>
+                <div class="bott">
+                    
+                        <p>
+                              <input type="submit" value="Sign Up" class="btn fl sub">
+                        </p>
+ 
+
+                    
+                    <!-- <p>
+                        <input type="reset" type="sub" value="Reset" class="btn fr res">
+                    </p> -->
+                </div>
+
+
+                <!-- <div class="box">
+                    <a class="button" href="#popup1">Sign up</a>
+                </div>
+                
+                <div id="popup1" class="overlay">
+                    <div class="popup">
+                        <h2>Congratulations</h2>
+                        <a class="close" href="#">&times;</a>
+                        <div class="content">
+                            Your registration successfully done
+                        </div>
+                        <p>Go to<a href="log.html">log in</a></p>
+                    </div>
+                </div> -->
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

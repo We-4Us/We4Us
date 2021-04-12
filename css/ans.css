@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+}
+  
+body {
+    font-family: "Segoe UI";
+    box-sizing: border-box;
+    background: #ebe9e5;
+    overflow-x: hidden;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.clr
+{
+    clear: both;
+}
+
+
+form .message textarea{
+    margin-top: 15px;
+    width: 523px;
+    height: 148px;
+    resize: none;
+    outline: none;
+    border: 1px solid #36312a;
+    color: #000000;
+    background: transparent;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+form .message textarea::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #636363;
+}
+form{
+    position: relative;
+}
+form{
+    color: white;
+}
+form button{
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #d6c6b2;
+    background: #d6c6b2;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    position: absolute;
+    left: 472px;
+    bottom: 3%;
+    outline: none;
+    cursor: pointer;
+}
+form button i{
+    color: #222222;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    font-size: 23px;
+    
+}
+
+
+
+#qus-part{
+    margin: 50px 0;
+    margin-left: 100px;
+}
+#qus-part .qus{
+    margin: 40px 0;
+}
+#qus-part .qus h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color:rgb(46, 46, 46);
+}
+/* #qus-part .qus .btn a{
+    display: inline-block;
+    padding: 10px 15px;
+    background: #00a39e;
+    color: #222222;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+} */
+
+.news_feed_title {
+    padding: 15px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .news_feed_title img {
+    width: 35px;
+    margin-right: 12px;
+  }
+  
+  .news_feed_title_content {
+    text-align: left;
+  }
+  
+  .news_feed_title_content p {
+    color: black;
+    font-weight: 700;
+  }
+  
+  .news_feed_title_content span {
+    color: black;
+    font-size: 12px;
+  }
+  
+
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
